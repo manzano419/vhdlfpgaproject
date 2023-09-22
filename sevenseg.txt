@@ -100,7 +100,7 @@ end if;
             if seg2 = 5 then
                 min1 <= min1 + 1;
                 seg2 <= 0;
-            if min1 = 9 then --rolls over when it gets to 99.99
+            if min1 = 9 then --rolls over when it gets to 59.99
                 min2 <= min2 + 1;
                 min1 <=0;
             if min2 = 6 then
